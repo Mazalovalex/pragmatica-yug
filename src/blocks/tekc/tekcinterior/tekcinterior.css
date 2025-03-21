@@ -1,0 +1,22 @@
+.tekcinterior-section {
+  padding: 0px 20px;
+}
+
+.tekcinterior-title {
+  font-family: var(--font-primary);
+  font-size: 56px;
+  margin-bottom: 20px;
+}
+.tekcinterior-description {
+  padding-bottom: 20px;
+}
+
+.tekcinterior-section-title {
+  padding-bottom: 10px;
+}
+
+.tekcinterior-description {
+  padding: 20px;
+  background-color: var(--color-accent-light-blue);
+  border-radius: 5px;
+}

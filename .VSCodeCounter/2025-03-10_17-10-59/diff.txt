@@ -1,0 +1,99 @@
+Date : 2025-03-10 17:10:59
+Directory : /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src
+Total : 45 files,  1892 codes, 58 comments, 129 blanks, all 2079 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| HTML       |          3 |        971 |         21 |         28 |      1,020 |
+| JSON       |          1 |        528 |          0 |          2 |        530 |
+| CSS        |         11 |        293 |          0 |         61 |        354 |
+| JavaScript |         13 |        187 |         37 |         40 |        264 |
+| XML        |         16 |          0 |          0 |          0 |          0 |
+| Markdown   |          1 |        -87 |          0 |         -2 |        -89 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                                              | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                                                 |         45 |      1,892 |         58 |        129 |      2,079 |
+| . (Files)                                                                                                                                         |          5 |        993 |         27 |         36 |      1,056 |
+| assets                                                                                                                                            |         16 |          0 |          0 |          0 |          0 |
+| assets/images                                                                                                                                     |         16 |          0 |          0 |          0 |          0 |
+| assets/images (Files)                                                                                                                             |          8 |        -93 |          0 |         -8 |       -101 |
+| assets/images/partnersIcon                                                                                                                        |          8 |         93 |          0 |          8 |        101 |
+| blocks                                                                                                                                            |          9 |        283 |          0 |         59 |        342 |
+| blocks/catalog                                                                                                                                    |          5 |        174 |         -1 |         37 |        210 |
+| blocks/catalog (Files)                                                                                                                            |          1 |         -2 |         -4 |          1 |         -5 |
+| blocks/catalog/1.catalog-header                                                                                                                   |          1 |          4 |          0 |          0 |          4 |
+| blocks/catalog/2.catalog-products                                                                                                                 |          3 |        172 |          3 |         36 |        211 |
+| blocks/product-template                                                                                                                           |          4 |        109 |          1 |         22 |        132 |
+| blocks/product-template (Files)                                                                                                                   |          1 |         15 |          0 |          2 |         17 |
+| blocks/product-template/description                                                                                                               |          1 |         60 |          0 |         12 |         72 |
+| blocks/product-template/image                                                                                                                     |          1 |         34 |          1 |          7 |         42 |
+| blocks/product-template/tabs                                                                                                                      |          1 |          0 |          0 |          1 |          1 |
+| data                                                                                                                                              |          1 |        528 |          0 |          2 |        530 |
+| scripts                                                                                                                                           |         12 |         78 |         31 |         30 |        139 |
+| scripts/2.popular-product                                                                                                                         |          1 |       -130 |        -18 |        -36 |       -184 |
+| scripts/4.partners-section                                                                                                                        |          1 |        -37 |        -10 |        -12 |        -59 |
+| scripts/5.change-color-section                                                                                                                    |          1 |        -84 |        -22 |        -30 |       -136 |
+| scripts/catalog                                                                                                                                   |          5 |         21 |         23 |         18 |         62 |
+| scripts/product-template                                                                                                                          |          1 |         56 |          8 |         12 |         76 |
+| scripts/product-template/image                                                                                                                    |          1 |         56 |          8 |         12 |         76 |
+| scripts/start-page                                                                                                                                |          3 |        252 |         50 |         78 |        380 |
+| styles                                                                                                                                            |          2 |         10 |          0 |          2 |         12 |
++---------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                                                          | language   | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/assets/images/centr-stroitelnogo-kontrolya-i-ekspertiz-leningradskoj-oblasti.svg              | XML        |         -9 |          0 |         -1 |        -10 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/assets/images/edinyj-zakazchik-ppk.svg                                                        | XML        |         -9 |          0 |         -1 |        -10 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/assets/images/fau-roskapstroj.svg                                                             | XML        |        -11 |          0 |         -1 |        -12 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/assets/images/lider-grupp.svg                                                                 | XML        |        -14 |          0 |         -1 |        -15 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/assets/images/ogau-korporaciya-dom73.svg                                                      | XML        |        -18 |          0 |         -1 |        -19 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/assets/images/partnersIcon/centr-stroitelnogo-kontrolya-i-ekspertiz-leningradskoj-oblasti.svg | XML        |          9 |          0 |          1 |         10 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/assets/images/partnersIcon/edinyj-zakazchik-ppk.svg                                           | XML        |          9 |          0 |          1 |         10 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/assets/images/partnersIcon/fau-roskapstroj.svg                                                | XML        |         11 |          0 |          1 |         12 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/assets/images/partnersIcon/lider-grupp.svg                                                    | XML        |         14 |          0 |          1 |         15 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/assets/images/partnersIcon/ogau-korporaciya-dom73.svg                                         | XML        |         18 |          0 |          1 |         19 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/assets/images/partnersIcon/rks-novorossiya.svg                                                | XML        |          9 |          0 |          1 |         10 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/assets/images/partnersIcon/setl-grupp.svg                                                     | XML        |         18 |          0 |          1 |         19 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/assets/images/partnersIcon/stroitelnaya-kompaniya-kvs.svg                                     | XML        |          5 |          0 |          1 |          6 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/assets/images/rks-novorossiya.svg                                                             | XML        |         -9 |          0 |         -1 |        -10 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/assets/images/setl-grupp.svg                                                                  | XML        |        -18 |          0 |         -1 |        -19 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/assets/images/stroitelnaya-kompaniya-kvs.svg                                                  | XML        |         -5 |          0 |         -1 |         -6 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/blocks/catalog/1.catalog-header/catalog-header.css                                            | CSS        |          4 |          0 |          0 |          4 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/blocks/catalog/2.catalog-products/catalog-products.css                                        | CSS        |         82 |          1 |         20 |        103 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/blocks/catalog/2.catalog-products/list-grid.css                                               | CSS        |         63 |          2 |         12 |         77 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/blocks/catalog/2.catalog-products/view-options.css                                            | CSS        |         27 |          0 |          4 |         31 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/blocks/catalog/catalog.css                                                                    | CSS        |         -2 |         -4 |          1 |         -5 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/blocks/product-template/description/description.css                                           | CSS        |         60 |          0 |         12 |         72 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/blocks/product-template/image/image.css                                                       | CSS        |         34 |          1 |          7 |         42 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/blocks/product-template/product-template.css                                                  | CSS        |         15 |          0 |          2 |         17 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/blocks/product-template/tabs/tabs.css                                                         | CSS        |          0 |          0 |          1 |          1 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/catalog.html                                                                                  | HTML       |        246 |         12 |          1 |        259 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/catalog.js                                                                                    | JavaScript |         10 |          2 |          2 |         14 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/data/products.json                                                                            | JSON       |        528 |          0 |          2 |        530 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/index.html                                                                                    | HTML       |         -1 |          0 |         -2 |         -3 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/product-template.html                                                                         | HTML       |        726 |          9 |         29 |        764 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/product-template.js                                                                           | JavaScript |         12 |          4 |          6 |         22 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/scripts/2.popular-product/slider-popular-product.js                                           | JavaScript |       -130 |        -18 |        -36 |       -184 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/scripts/4.partners-section/partner-section.js                                                 | JavaScript |        -37 |        -10 |        -12 |        -59 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/scripts/5.change-color-section/5.change-color-section.js                                      | JavaScript |        -84 |        -22 |        -30 |       -136 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/scripts/catalog/app.js                                                                        | JavaScript |         17 |          2 |          2 |         21 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/scripts/catalog/filters.js                                                                    | JavaScript |         82 |          8 |          6 |         96 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/scripts/catalog/json-guide.md                                                                 | Markdown   |        -87 |          0 |         -2 |        -89 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/scripts/catalog/products.js                                                                   | JavaScript |         -3 |         10 |          8 |         15 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/scripts/catalog/toggleView.js                                                                 | JavaScript |         12 |          3 |          4 |         19 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/scripts/product-template/image/image.js                                                       | JavaScript |         56 |          8 |         12 |         76 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/scripts/start-page/5.change-color-section.js                                                  | JavaScript |         84 |         22 |         30 |        136 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/scripts/start-page/partner-section.js                                                         | JavaScript |         38 |         10 |         12 |         60 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/scripts/start-page/slider-popular-product.js                                                  | JavaScript |        130 |         18 |         36 |        184 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/styles/styles.css                                                                             | CSS        |          9 |          0 |          2 |         11 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/styles/variables.css                                                                          | CSS        |          1 |          0 |          0 |          1 |
+| Total                                                                                                                                             |            |      1,892 |         58 |        129 |      2,079 |
++---------------------------------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

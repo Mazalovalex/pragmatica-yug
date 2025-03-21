@@ -1,0 +1,47 @@
+/* Хлебные крошки */
+.breadcrumbs {
+	margin: 20px 20px 30px 20px;
+  grid-column: 1/5;
+}
+
+.breadcrumb-list {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.breadcrumb-item {
+  display: flex;
+  align-items: center;
+}
+
+/* Добавляем тире после элемента, если он НЕ последний */
+.breadcrumb-item:not(:last-child)::after {
+  content: "\2014"; /* Символ тире */
+  display: inline-block;
+  cursor: default;
+  margin-left: 8px;
+  color: #8e8e93;
+}
+
+.breadcrumb-link {
+  text-decoration: none;
+  color: var(--color-border);
+  font-size: 12px;
+}
+
+.breadcrumb-link:hover {
+  text-decoration: underline;
+}
+
+/* Стили для последнего элемента */
+.breadcrumb-item:last-child .breadcrumb-link {
+  color: var(--color-accent-light-dark); /* Красный цвет */
+}
+/* Убираем подчёркивание при наведении на последний элемент */
+.breadcrumb-item:last-child .breadcrumb-link:hover {
+  text-decoration: none;
+  cursor: default;
+}
+	

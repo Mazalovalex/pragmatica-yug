@@ -1,0 +1,163 @@
+dist
+├── about.5b9b8d8cd714d9221ca8.js
+├── about.css
+├── about.html
+├── catalog
+│   ├── betonkontakt.html
+│   ├── fasadnaya.html
+│   ├── interyernaya.html
+│   ├── kontsentrat-1-5.html
+│   ├── moyushchayasya.html
+│   ├── potolochnaya.html
+│   ├── teksturnaya.html
+│   ├── ukreplyayushchiy.html
+│   └── vlagostoykaya.html
+├── catalog.afb52947cdcfc650f43d.js
+├── catalog.css
+├── catalog.html
+├── certification.26e9616170be10f4fdb3.js
+├── certification.css
+├── certification.html
+├── color_collections
+│   └── ralClassic.html
+├── contacts.31d6cfe0d16ae931b73c.js
+├── contacts.css
+├── contacts.html
+├── excel-files
+│   └── Pragmatika_Yug_price_list_17.02.25.9b4a49f8defdc40a9eca.xlsx
+├── fonts
+│   ├── AlumniSans-VariableFont.e9e8e356a5278732a5e7.ttf
+│   └── Montserrat-VariableFont.4df14eb5e72bf55c4497.ttf
+├── images
+│   ├── 1.f37db1e3c0bcfe6009e4.webp
+│   ├── 10.18a77fb567d6b5dc8571.webp
+│   ├── 11.6fd87d09d40978971a6f.webp
+│   ├── 12.fd28d648888ff16df8a0.webp
+│   ├── 13.7d4406c831746aed8465.webp
+│   ├── 14.1b9f9045c5e48531f5cd.webp
+│   ├── 15.d012bdda83829524561d.webp
+│   ├── 16.50450b2ffc6be0e0ffdf.webp
+│   ├── 17.2b98e3cf8301cccf27ab.webp
+│   ├── 18.304011979529a7e39671.webp
+│   ├── 19.c7cda0ef4ac35a21b94b.webp
+│   ├── 2.120c2ebf03372bb574fc.webp
+│   ├── 20.f1840cf9548acbbea270.webp
+│   ├── 21.bc8a7ef1909062249e32.webp
+│   ├── 22.4afdeb02c0ef444e1235.webp
+│   ├── 23.e8634256ffac6a266e06.webp
+│   ├── 24.2f6fff0466e5630349d7.webp
+│   ├── 3.d84ac5e02134c006d8da.webp
+│   ├── 4.1be9edb29add8ff98566.webp
+│   ├── 5.bdbac2d0103c94f0449d.webp
+│   ├── 6.8e8025c9b49d400747eb.webp
+│   ├── 7.2084d6a509e38dfb767f.webp
+│   ├── 8.8789a0b05eba979f89cf.webp
+│   ├── 9.56676a0fc2436e3e9909.webp
+│   ├── Facebook–1280x720.3eb84d189e5c2bc66a39.webp
+│   ├── Gatchinskiy.b9a047503eed5eb2d394.svg
+│   ├── Group 200.7295f32693b7e00e5131.svg
+│   ├── Logo-yellow.3a82401afd3f01612330.svg
+│   ├── Logo.c8f009765037c3321fa0.svg
+│   ├── Proniknovenie.41b321666a5ee44f6634.svg
+│   ├── Tekstura.365d235ee9a3e19b9ac3.svg
+│   ├── Twitter–1200x600.d4b880b75766032913ba.webp
+│   ├── Ukreplenie.a90a47d3fefdd1a1137b.svg
+│   ├── adhesion.569fe650015bd7bf2595.svg
+│   ├── arrow-left.e695114d493153b9cfac.svg
+│   ├── arrow.3c5290a7a73ade0dd3be.svg
+│   ├── arrowWhite.82e4150adf97f53ea1f3.svg
+│   ├── betonkontakt.4f93a8bbdbcf62e50e31.webp
+│   ├── betonkontakt.a51fd693214ee1aed573.webp
+│   ├── betonkontakt.d35ab04b4ff5a6d1258d.webp
+│   ├── betonkontakt1200x600.5d8772c3636d6abd9760.webp
+│   ├── betonkontakt1280x720.f06f1c1d7d46b2d830fb.webp
+│   ├── betonkontakt_emblema.b1fa00ae1fc1cf7ec6d7.webp
+│   ├── centr-stroitelnogo-kontrolya-i-ekspertiz-leningradskoj-oblasti.37859c73b5be6006ad43.svg
+│   ├── director-podpis.c16c899028905a4b1aeb.webp
+│   ├── download-white.c77792789ed42e007f6c.svg
+│   ├── download_white.c77792789ed42e007f6c.svg
+│   ├── dush.242a6505cb82ac0ccade.png
+│   ├── ecology.0002a0bf299adb4a2d1b.svg
+│   ├── edinyj-zakazchik-ppk.6664d4af7c6e50e958dc.svg
+│   ├── fasadnaya.8cbc51954441340e2bd2.webp
+│   ├── fasadnaya.9a546352432b45f833e1.webp
+│   ├── fasadnaya_emblema.2615733f5bd0d63c2948.webp
+│   ├── fau-roskapstroj.16f790984daa32e2be54.png
+│   ├── fau-roskapstroj.c21fc302818b30c14340.svg
+│   ├── foto-director.a7e6876a42548f112d61.webp
+│   ├── humidity.8b52728b9644d868c591.svg
+│   ├── interyernaya.ae9a46e6fec60ddfa179.webp
+│   ├── interyernaya.b55be77ac37f03434173.webp
+│   ├── interyernaya1200x600.878b3605f3eaab250968.webp
+│   ├── interyernaya1280x720.4325e2aa46309b73c4a9.webp
+│   ├── interyernaya_emblema.471189ec62e50e608ef9.webp
+│   ├── kollerovka.f34348357154af1ab272.svg
+│   ├── kontsentrat-1-5.dc74b5682f6eec0b8ba0.webp
+│   ├── kontsentrat-1-5.e7fd3d201200bd875dd5.webp
+│   ├── kontsentrat-1-51200x600.58b8535843340ac6b0b3.webp
+│   ├── kontsentrat-1-51280x720.00b6e9b6e5d47edbf52a.webp
+│   ├── kontsentrat-1-5_emblema.00850be4e0cce2deab2b.webp
+│   ├── lider-grupp.bd6fc26a2e87b1f4f30e.svg
+│   ├── mapLO.ec7d0d690b6009e5707e.svg
+│   ├── moyushchayasya.0450d690ede95911b743.webp
+│   ├── moyushchayasya.7100db92fa71a0dca291.webp
+│   ├── moyushchayasya1200x600.c3cefc297db083051c5a.webp
+│   ├── moyushchayasya1280x720.97dd78eb05f826bf599d.webp
+│   ├── moyushchayasya_emblema.223176e1ca3500ebd60b.webp
+│   ├── ogau-korporaciya-dom73.dea88b90afb44308736a.svg
+│   ├── opaciti_logo-left.a304e5be96e5bfb2bc3c.png
+│   ├── opaciti_logo.f5c9e3574380a782fa13.png
+│   ├── potolochnaya.6299bb172efa23c7b943.webp
+│   ├── potolochnaya.d6d30b527c0d6794ef08.webp
+│   ├── potolochnaya1200x600.633a6de0d249db4c58af.webp
+│   ├── potolochnaya1280x720.b58ed9a0e70335f2252d.webp
+│   ├── potolochnaya_emblema.2ea6605581a7aa20bedd.webp
+│   ├── rks-novorossiya.7c016e635691c188af4d.svg
+│   ├── samolet.f3e008f9ce3397c28e3e.svg
+│   ├── setl-grupp.62c7fb1cac23cb2581e6.svg
+│   ├── start-section-img.6c379ca4cb319ff170e7.webp
+│   ├── stroitelnaya-kompaniya-kvs.9fa683fa7159fb50026a.svg
+│   ├── teksturnaia.f9354d82a381c2b07cab.webp
+│   ├── teksturnaya.1be5bd747fd8fd410a79.webp
+│   ├── teksturnaya.a0d595a30cd45f8c1517.webp
+│   ├── teksturnaya1200x600.c9dc4d95bbf492e0701f.webp
+│   ├── teksturnaya1280x720.8f2026796b95822c4e6b.webp
+│   ├── teksturnaya_emblema.84443fe39eb2ca3b8fa7.webp
+│   ├── ukreplyayushchiy.44c49ca347aed8d2114e.webp
+│   ├── ukreplyayushchiy.6b1fe328b2dd0ecf2fdf.webp
+│   ├── ukreplyayushchiy1200x600.5e1ba8a72fb0c0927c4a.webp
+│   ├── ukreplyayushchiy1280x720.add5500b3d8493a9c106.webp
+│   ├── ukreplyayushchiy_emblema.f625b057dcb64d210c45.webp
+│   ├── visokayAgdezia.1312849b55d93e71cad6.png
+│   ├── visokayAgdezia.b35cb46495f77a0a2c12.svg
+│   ├── vlagostoikaia.e7fb2a921f6c7a8d2a32.webp
+│   ├── vlagostoikaia1200x600.6985304cbd8c2351ec90.webp
+│   ├── vlagostoikaia1280x720.77e3b71cd61b6298dec0.webp
+│   ├── vlagostoykaya.9fb769514d2abe3055ed.webp
+│   ├── vlagostoykaya.e851802df26add0140a9.webp
+│   ├── vlagostoykaya1200x600.b43a0d926bfb89f68714.webp
+│   ├── vlagostoykaya1280x720.467dbf49a937b8c0205b.webp
+│   └── vlagostoykaya_emblema.c13fdae2934272b0ee9c.webp
+├── index.1f89bcfabd862af362a9.js
+├── index.css
+├── index.html
+├── partners.31d6cfe0d16ae931b73c.js
+├── partners.css
+├── partners.html
+├── pdf
+│   ├── betonkontakt.34b494b4474418408e35.pdf
+│   ├── fasadnaya.9b47758e5003cb512980.pdf
+│   ├── interyernaya.34b494b4474418408e35.pdf
+│   ├── kontsentrat-1-5.34b494b4474418408e35.pdf
+│   ├── moyushchayasya.34b494b4474418408e35.pdf
+│   ├── potolochnaya.34b494b4474418408e35.pdf
+│   ├── teksturnaya.34b494b4474418408e35.pdf
+│   ├── test.533e5037db59eba73e3b.pdf
+│   ├── ukreplyayushchiy.34b494b4474418408e35.pdf
+│   └── vlagostoykaya.34b494b4474418408e35.pdf
+├── productTemplate.663da2657a39fc3c48fc.js
+├── productTemplate.css
+├── ralClassic.31d6cfe0d16ae931b73c.js
+└── ralClassic.css
+
+7 directories, 154 files

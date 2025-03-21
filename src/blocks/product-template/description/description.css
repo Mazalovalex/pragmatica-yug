@@ -1,0 +1,123 @@
+.productInfo-btn-opt {
+  padding: 5px 10px;
+  color: var(--color-accent-white);
+  border: 1px solid transparent;
+  background-color: #538267;
+  border-radius: 5px;
+  width: fit-content;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: var(--font-weight-secondary-normal);
+  position: relative;
+  cursor: pointer;
+}
+.productInfo-btn-opt:hover {
+  background-color: #3a664d;
+}
+
+.productInfo-btn-opt::before {
+  content: "Для оптовых покупателей от 250 т.р. в месяц цена ниже. Точную цену уточните у менеджера.";
+  position: absolute;
+  left: 50%;
+  bottom: -250%;
+  transform: translateX(-35%);
+  width: 200px;
+  background-color: var(--color-accent-light-blue);
+  color: var(--color-accent-light-dark);
+  font-size: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: left;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.productInfo-btn-opt:hover::before {
+  visibility: visible;
+  opacity: 1;
+}
+
+.productInfo {
+  grid-column: 3/5;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 100px;
+  padding-left: 10px;
+}
+
+.productInfo-title {
+  font-size: 24px;
+  color: var(--color-accent-dark-blue);
+  font-weight: var(--font-weight-secondary-bold);
+  text-wrap: balance;
+  width: 700px;
+  margin-bottom: 20px;
+}
+
+.productInfo-descripption {
+  margin-bottom: 20px;
+  width: 700px;
+}
+
+.product-specs-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.product-specs__item {
+  color: var(--font-color-secondary);
+  font-weight: 300;
+}
+
+.product-weight-list {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.product-specs__item-bold {
+  color: var(--color-accent-black);
+  font-weight: var(--font-weight-secondary-light);
+}
+
+.productInfo-warning {
+  margin-top: auto;
+  font-size: 10px;
+  color: var(--font-color-secondary);
+}
+
+.download-text {
+  display: block;
+  font-size: 12px;
+}
+
+.download-text-accent {
+  color: var(--color-accent-dark-blue-hover);
+  font-weight: var(--font-weight-secondary-normal);
+}
+
+.product-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.download-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-link-download {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.product-link-download:hover .download-text-accent {
+  text-decoration: underline;
+}

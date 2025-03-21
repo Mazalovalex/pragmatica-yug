@@ -1,0 +1,141 @@
+Date : 2025-03-21 19:04:42
+Directory : /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src
+Total : 68 files,  21624 codes, 133 comments, 239 blanks, all 21996 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |          7 |     10,291 |          0 |          0 |     10,291 |
+| HTML       |         15 |      5,429 |        100 |        112 |      5,641 |
+| XML        |         13 |      5,328 |          0 |         13 |      5,341 |
+| CSS        |         20 |        395 |         15 |         70 |        480 |
+| JavaScript |         13 |        181 |         18 |         44 |        243 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                             | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                |         68 |     21,624 |        133 |        239 |     21,996 |
+| . (Files)                                                                                                        |         15 |      5,429 |        100 |        112 |      5,641 |
+| assets                                                                                                           |         13 |      5,328 |          0 |         13 |      5,341 |
+| assets/icons                                                                                                     |         11 |      5,292 |          0 |         11 |      5,303 |
+| assets/icons/gerbs                                                                                               |         11 |      5,292 |          0 |         11 |      5,303 |
+| assets/images                                                                                                    |          2 |         36 |          0 |          2 |         38 |
+| assets/images/preloader                                                                                          |          2 |         36 |          0 |          2 |         38 |
+| blocks                                                                                                           |         19 |        390 |         15 |         70 |        475 |
+| blocks/about                                                                                                     |          2 |         20 |          0 |          5 |         25 |
+| blocks/about (Files)                                                                                             |          1 |         16 |          0 |          2 |         18 |
+| blocks/about/about-review                                                                                        |          1 |          4 |          0 |          3 |          7 |
+| blocks/contacts                                                                                                  |          1 |          3 |          0 |          2 |          5 |
+| blocks/forms                                                                                                     |          1 |          0 |          0 |          1 |          1 |
+| blocks/index                                                                                                     |          5 |         71 |          3 |          9 |         83 |
+| blocks/index (Files)                                                                                             |          1 |          1 |          0 |          0 |          1 |
+| blocks/index/1.start-section                                                                                     |          1 |          0 |          0 |          1 |          1 |
+| blocks/index/2.popular-product                                                                                   |          1 |          2 |          0 |         -2 |          0 |
+| blocks/index/5.change-color-section                                                                              |          1 |          1 |          0 |          0 |          1 |
+| blocks/index/preloader                                                                                           |          1 |         67 |          3 |         10 |         80 |
+| blocks/nskSystem                                                                                                 |          1 |         44 |          0 |          9 |         53 |
+| blocks/obratnaya-svyaz                                                                                           |          1 |        121 |          9 |         20 |        150 |
+| blocks/partners                                                                                                  |          1 |         52 |          0 |          9 |         61 |
+| blocks/popup                                                                                                     |          1 |         35 |          3 |          5 |         43 |
+| blocks/product-template                                                                                          |          1 |          1 |          0 |          0 |          1 |
+| blocks/product-template/description                                                                              |          1 |          1 |          0 |          0 |          1 |
+| blocks/ralClassic                                                                                                |          1 |          6 |          0 |          1 |          7 |
+| blocks/tekc                                                                                                      |          3 |         21 |          0 |          6 |         27 |
+| blocks/tekc (Files)                                                                                              |          1 |          2 |          0 |          1 |          3 |
+| blocks/tekc/tekcexterior                                                                                         |          1 |          0 |          0 |          1 |          1 |
+| blocks/tekc/tekcinterior                                                                                         |          1 |         19 |          0 |          4 |         23 |
+| blocks/tikkurilasymphony                                                                                         |          1 |         16 |          0 |          3 |         19 |
+| data                                                                                                             |          7 |     10,291 |          0 |          0 |     10,291 |
+| data (Files)                                                                                                     |          1 |          4 |          0 |          0 |          4 |
+| data/data-catalog-color                                                                                          |          6 |     10,287 |          0 |          0 |     10,287 |
+| scripts                                                                                                          |         13 |        181 |         18 |         44 |        243 |
+| scripts/about                                                                                                    |          2 |          0 |          1 |          0 |          1 |
+| scripts/about/review                                                                                             |          1 |         -1 |          1 |          0 |          0 |
+| scripts/catalog                                                                                                  |          2 |         24 |          3 |          3 |         30 |
+| scripts/color_collections                                                                                        |          1 |         12 |          0 |          4 |         16 |
+| scripts/modal                                                                                                    |          1 |         22 |          7 |          7 |         36 |
+| scripts/nskSystem                                                                                                |          1 |          7 |          0 |          4 |         11 |
+| scripts/obratnaya-svyaz                                                                                          |          1 |         41 |          6 |          7 |         54 |
+| scripts/start-page                                                                                               |          2 |         54 |          1 |         11 |         66 |
+| scripts/tekc                                                                                                     |          2 |         14 |          0 |          5 |         19 |
+| scripts/tikkurilasymphony                                                                                        |          1 |          7 |          0 |          3 |         10 |
+| styles                                                                                                           |          1 |          5 |          0 |          0 |          5 |
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                         | language   | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/about.html                                                   | HTML       |         23 |          1 |          0 |         24 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/assets/icons/gerbs/Bashkortostan.svg                         | XML        |         52 |          0 |          1 |         53 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/assets/icons/gerbs/Crimea.svg                                | XML        |         78 |          0 |          1 |         79 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/assets/icons/gerbs/Donetsk_Peoples_Republic.svg              | XML        |        278 |          0 |          1 |        279 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/assets/icons/gerbs/Kaliningrad_Oblast.svg                    | XML        |         21 |          0 |          1 |         22 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/assets/icons/gerbs/Leningrad_Oblast.svg                      | XML        |         52 |          0 |          1 |         53 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/assets/icons/gerbs/Lugansk_People_Republic.svg               | XML        |        878 |          0 |          1 |        879 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/assets/icons/gerbs/Primorsky_Krai.svg                        | XML        |         55 |          0 |          1 |         56 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/assets/icons/gerbs/Rostov_Oblast.svg                         | XML        |      2,147 |          0 |          1 |      2,148 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/assets/icons/gerbs/Saint_Petersburg.svg                      | XML        |      1,484 |          0 |          1 |      1,485 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/assets/icons/gerbs/Sakhalin_Oblast.svg                       | XML        |         33 |          0 |          1 |         34 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/assets/icons/gerbs/Sverdlovsk_oblast.svg                     | XML        |        214 |          0 |          1 |        215 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/assets/images/preloader/Logo.svg                             | XML        |         23 |          0 |          1 |         24 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/assets/images/preloader/big_opaciti_logo.svg                 | XML        |         13 |          0 |          1 |         14 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/blocks/about/about-review/about-review.css                   | CSS        |          4 |          0 |          3 |          7 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/blocks/about/about.css                                       | CSS        |         16 |          0 |          2 |         18 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/blocks/contacts/contacts.css                                 | CSS        |          3 |          0 |          2 |          5 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/blocks/forms/contact-cta.css                                 | CSS        |          0 |          0 |          1 |          1 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/blocks/index/1.start-section/start-section.css               | CSS        |          0 |          0 |          1 |          1 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/blocks/index/2.popular-product/slider.css                    | CSS        |          2 |          0 |         -2 |          0 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/blocks/index/5.change-color-section/change-color-section.css | CSS        |          1 |          0 |          0 |          1 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/blocks/index/index.css                                       | CSS        |          1 |          0 |          0 |          1 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/blocks/index/preloader/preloader.css                         | CSS        |         67 |          3 |         10 |         80 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/blocks/nskSystem/nskSystem.css                               | CSS        |         44 |          0 |          9 |         53 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/blocks/obratnaya-svyaz/obratnaya-svyaz.css                   | CSS        |        121 |          9 |         20 |        150 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/blocks/partners/partners.css                                 | CSS        |         52 |          0 |          9 |         61 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/blocks/popup/popup.css                                       | CSS        |         35 |          3 |          5 |         43 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/blocks/product-template/description/product-consumption.css  | CSS        |          1 |          0 |          0 |          1 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/blocks/ralClassic/ralClassic.css                             | CSS        |          6 |          0 |          1 |          7 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/blocks/tekc/tekc.css                                         | CSS        |          2 |          0 |          1 |          3 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/blocks/tekc/tekcexterior/tekcexterior.css                    | CSS        |          0 |          0 |          1 |          1 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/blocks/tekc/tekcinterior/tekcinterior.css                    | CSS        |         19 |          0 |          4 |         23 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/blocks/tikkurilasymphony/tikkurilasymphony.css               | CSS        |         16 |          0 |          3 |         19 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/catalog.html                                                 | HTML       |         15 |          0 |         -1 |         14 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/certification.html                                           | HTML       |          1 |          0 |         -1 |          0 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/color_collections.html                                       | HTML       |         27 |          0 |         -1 |         26 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/contacts.html                                                | HTML       |         28 |          0 |         -1 |         27 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/data/data-catalog-color/nsk.json                             | JSON       |      8,136 |          0 |          0 |      8,136 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/data/data-catalog-color/tekcInterior.json                    | JSON       |     31,403 |          0 |          1 |     31,404 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/data/data-catalog-color/tekc_ Exterior.json                  | JSON       |     -4,646 |          0 |         -1 |     -4,647 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/data/data-catalog-color/tekc_ Interior.json                  | JSON       |    -31,403 |          0 |         -1 |    -31,404 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/data/data-catalog-color/tekcexterior.json                    | JSON       |      4,646 |          0 |          1 |      4,647 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/data/data-catalog-color/tikkurila_symphony.json              | JSON       |      2,151 |          0 |          0 |      2,151 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/data/data-change-color.json                                  | JSON       |          4 |          0 |          0 |          4 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/duluxCr5.html                                                | HTML       |         22 |          0 |         -1 |         21 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/index.html                                                   | HTML       |        -94 |         33 |        -19 |        -80 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/nskSystem.html                                               | HTML       |      1,507 |         12 |         28 |      1,547 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/obratnaya-svyaz.html                                         | HTML       |        581 |         18 |         29 |        628 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/partners.html                                                | HTML       |      1,437 |          0 |          0 |      1,437 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/product-template.html                                        | HTML       |         15 |          0 |         -1 |         14 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/ralClassic.html                                              | HTML       |         20 |          0 |         -1 |         19 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/scripts/about/about.js                                       | JavaScript |          1 |          0 |          0 |          1 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/scripts/about/review/review.js                               | JavaScript |         -1 |          1 |          0 |          0 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/scripts/catalog/app.js                                       | JavaScript |          9 |         -1 |          0 |          8 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/scripts/catalog/filters.js                                   | JavaScript |         15 |          4 |          3 |         22 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/scripts/color_collections/color_collections.js               | JavaScript |         12 |          0 |          4 |         16 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/scripts/modal/modal.js                                       | JavaScript |         22 |          7 |          7 |         36 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/scripts/nskSystem/nskSystem.js                               | JavaScript |          7 |          0 |          4 |         11 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/scripts/obratnaya-svyaz/obratnaya-svyaz.js                   | JavaScript |         41 |          6 |          7 |         54 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/scripts/start-page/5.change-color-section.js                 | JavaScript |          4 |         -4 |          0 |          0 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/scripts/start-page/index.js                                  | JavaScript |         50 |          5 |         11 |         66 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/scripts/tekc/tekcexterior.js                                 | JavaScript |          7 |          0 |          2 |          9 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/scripts/tekc/tekcinterior.js                                 | JavaScript |          7 |          0 |          3 |         10 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/scripts/tikkurilasymphony/tikkurilasymphony.js               | JavaScript |          7 |          0 |          3 |         10 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/styles/styles.css                                            | CSS        |          5 |          0 |          0 |          5 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/tekcexterior.html                                            | HTML       |        618 |         12 |         27 |        657 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/tekcinterior.html                                            | HTML       |        619 |         12 |         27 |        658 |
+| /Users/mazalov/Desktop/ПрагматикаЮГ/PragmaticUg/src/tikkurilasymphony.html                                       | HTML       |        610 |         12 |         27 |        649 |
+| Total                                                                                                            |            |     21,624 |        133 |        239 |     21,996 |
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

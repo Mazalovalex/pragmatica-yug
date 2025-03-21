@@ -1,0 +1,76 @@
+.product-specs__item-weight {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Скрываем стандартные радиокнопки */
+.hidden-radio {
+  display: none;
+}
+
+/* Стили для label (текст фасовки) */
+.product-weight-list label {
+  display: inline-block;
+  padding: 8px 12px;
+  border: 1px solid var(--color-border-filters);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+/* Подсветка при наведении */
+.product-weight-list label:hover {
+  color: var(--color-accent-yellow);
+}
+
+/* Стиль для выбранного элемента */
+.hidden-radio:checked + label {
+  background-color: var(--color-accent-yellow);
+  border: 1px solid transparent;
+  color: var(--color-accent-black);
+}
+
+/* Отключаем изменение при наведении для выбранного элемента */
+.hidden-radio:checked + label:hover {
+  background-color: var(--color-accent-yellow);
+  border: 1px solid transparent;
+  color: var(--color-accent-black);
+}
+
+/* Стили для блока с ценой */
+.product-price {
+  margin-top: 16px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#selected-price {
+  color: var(--color-accent-black);
+}
+/* Стили для счетчика */
+
+.counter {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--color-accent-light-dark);
+  padding: 9px;
+  width: fit-content;
+  border-radius: 5px;
+}
+
+.counter button {
+  width: 30px;
+  border: 1px solid transparent;
+  background-color: var(--color-accent-white);
+  cursor: pointer;
+  text-align: center;
+  font-size: 18px;
+}
+
+.counter span {
+  margin: 0 10px;
+  font-size: 14px;
+  font-weight: 500;
+}

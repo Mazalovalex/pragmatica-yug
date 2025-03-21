@@ -1,0 +1,73 @@
+.color-grid {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 5px;
+}
+
+.color-box {
+  padding: 30px 40px;
+  border-radius: 5px;
+  font-weight: var(--font-weight-secondary-normal);
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.color-box:hover {
+  opacity: 0.5;
+}
+
+.red-line-container {
+  grid-column: 1 / -1; /* Все 8 колонок */
+  display: grid;
+  grid-template-columns: repeat(8, 1fr); /* 8 колонок */
+  width: 100%;
+  transition: opacity 0.1s ease-in-out;
+  margin: 5px 0;
+}
+
+.red-line-container.visible {
+  opacity: 1;
+}
+
+.red-line {
+  grid-column: 1 / 6; /* Занимает колонки с 1 по 5 */
+  padding: 20px;
+  min-height: 500px;
+  display: flex;
+  font-size: 20px;
+  font-weight: var(--font-weight-secondary-normal);
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.image-container-color-collection {
+  grid-column: 6 / -1; /* Занимает колонки с 6 по 8 */
+  background-color: var(
+    --color-accent-light-blue
+  ); /* Легкий фон для видимости */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 20px;
+  margin-left: 5px;
+}
+
+.image-container-color-collection img {
+  height: auto; /* Обеспечим пропорциональность */
+  width: 300px; /* Можно задать фиксированную ширину */
+}
+
+.color-note {
+  font-size: 8px;
+  word-wrap: break-word; /* Обеспечиваем перенос длинных слов */
+}
+
+.ral-color-list-title {
+  grid-column: 1/-1;
+}

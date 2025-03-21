@@ -1,0 +1,36 @@
+.about-img {
+  padding: 0 20px;
+  width: 100%;
+  overflow: hidden; /* Скрываем лишние изображения */
+  position: relative;
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.image-container {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  white-space: nowrap;
+  transition: transform 0.1s linear;
+  will-change: transform;
+  width: max-content; /* Убирает автоматическое растяжение */
+}
+
+.image {
+  width: 200px;
+  height: 192px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+

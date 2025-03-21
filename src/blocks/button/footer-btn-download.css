@@ -1,0 +1,21 @@
+.footer-btn-download {
+  width: fit-content;
+  padding: 10px 0px;
+  background-color: transparent;
+  border: none;
+  position: relative;
+  color: var(--color-accent-white);
+}
+
+.footer-btn-download::before {
+  position: absolute;
+  content: "";
+  left: 110%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px; /* размер иконки */
+  height: 16px;
+  background-image: url("/src/assets/icons/download-white.svg"); /* Путь к вашей иконке */
+  background-size: contain;
+  background-repeat: no-repeat;
+}

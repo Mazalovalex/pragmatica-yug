@@ -1,0 +1,152 @@
+.slider {
+  width: 100%;
+  background-color: #e1e8eb;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 10px;
+  row-gap: 50px;
+  padding: 80px 0 50px 0;
+  border-radius: 5px;
+}
+.slider-footer {
+  grid-row: 2/3;
+  grid-column: 1/5;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  align-items: center; /* Выравниваем элементы по вертикали */
+}
+
+.slider-footer-btn-link {
+  grid-column: 1/5;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.margin-left50 {
+  margin-left: 50px;
+}
+
+.slider-footer-btn-link-katalog {
+  grid-column: 4/5; /* Кнопки "Left" и "Right" в четвёртой колонке */
+  display: flex;
+  gap: 1px;
+  justify-self: start; /* Выравниваем по левому краю */
+  align-items: center;
+}
+
+.slider-footer-btn-link-katalog::after {
+  content: ""; /* Обязательно для отображения псевдоэлемента */
+  display: inline-block;
+  width: 20px; /* Ширина иконки */
+  height: 17px; /* Высота иконки */
+  background-image: url("/src/assets/icons/arrow-left.svg"); /* Путь к SVG */
+  background-size: cover; /* Масштабирование SVG */
+  margin-left: 10px; /* Отступ между иконкой и текстом */
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  grid-column: 3 / 5;
+  grid-row: 1 / 2;
+}
+
+.container {
+  width: 100%; /* Занимает всю ширину .wrapper */
+  height: 100%; /* Занимает всю высоту .wrapper */
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.box {
+  width: 100%; /* Занимает всю ширину контейнера */
+  height: 100%; /* Занимает всю высоту контейнера */
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.popular-product-section-img {
+  width: 75%; /* Занимает всю ширину .box */
+  object-fit: cover; /* Заполняет контейнер с сохранением пропорций */
+  object-position: left; /* Центрирует изображение */
+  height: 100%;
+  pointer-events: none; /* Отключает взаимодействие с изображением */
+}
+
+.slider-text-window {
+  grid-column: 1/3;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-left: 50px;
+  width: 80%;
+}
+
+.slider-text-window-header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.product-features-list {
+  display: flex;
+  gap: 20px;
+}
+
+.product-features-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.product-features-item-icon {
+  width: 100%;
+  height: 50px;
+}
+
+.slider-product-title {
+  font-family: var(--font-primary);
+  font-size: 70px;
+  line-height: 0.9;
+  font-weight: 400;
+}
+
+.current-slider {
+  gap: 5px;
+  color: #333;
+  grid-column: 4/5;
+  grid-row: 1/2;
+  display: flex;
+}
+.current-slide {
+  font-size: 70px;
+  font-family: var(--font-primary);
+  line-height: 0.8;
+}
+.total-slides {
+  font-family: var(--font-primary);
+
+  font-size: 50px;
+  font-size: 20px;
+}
+
+.current-slide,
+.total-slides {
+  font-weight: bold;
+}
+
+.total-slides::before {
+  content: "/";
+  margin: 0 5px;
+}

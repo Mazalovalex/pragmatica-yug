@@ -1,0 +1,17 @@
+@font-face {
+  font-display: swap;
+  font-family: "AlumniSans-VariableFont";
+  src: local("AlumniSans-VariableFont"),
+    url("./fonts/AlumniSans-VariableFont.ttf") format("truetype-variations");
+  font-weight: 100 900;
+  font-stretch: 75% 100%;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Montserrat-VariableFont";
+  src: local("Montserrat-VariableFont"),
+    url("./fonts/Montserrat-VariableFont.ttf") format("truetype-variations");
+  font-weight: 200 900;
+  font-stretch: 75% 100%;
+}

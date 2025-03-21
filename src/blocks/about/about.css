@@ -1,0 +1,93 @@
+@import url(./about-mission/about-mission.css);
+@import url(./about-review/about-review.css);
+@import url(./about-advantages/about-advantages.css);
+@import url(./about-img/about-img.css);
+@import url(./about-production/about-production.css);
+
+.about-section {
+  position: relative;
+  padding: 0px 20px;
+  height: 85vh;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 колонки */
+  grid-auto-rows: max-content;
+  gap: 10px;
+}
+
+.about-title {
+  font-size: 56px;
+  font-family: var(--font-primary);
+  margin-bottom: 20px;
+  grid-column: 1/-1;
+}
+
+.about-map {
+  position: absolute;
+  height: 100%;
+  z-index: 1;
+  padding-left: 20px;
+}
+
+.about-description {
+  grid-column: 3/5;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 2;
+  position: relative;
+  top: -90px;
+}
+
+.color-dark-light {
+  color: var(--color-accent-light-dark);
+  font-style: italic;
+}
+
+.about-description-title {
+  font-size: 120px;
+  font-family: var(--font-primary);
+  text-transform: uppercase;
+  line-height: 1;
+  color: var(--color-accent-dark-blue);
+  font-weight: var(--font-weight-secondary-normal);
+  position: relative;
+  left: -7px;
+}
+
+#gatchinskij {
+  fill: var(--color-accent-light-blue);
+}
+
+.about-map:hover #gatchinskij {
+  fill: var(--color-accent-dark-blue);
+  color: transparent;
+  stroke: var(--color-accent-dark-blue);
+}
+
+.text-overlay {
+  position: absolute;
+  top: 389.178px; /* y-координата точки */
+  left: 309.67px; /* x-координата точки */
+  transform: translate(-50%, -100%); /* Центрируем текст относительно точки */
+  font-size: 16px;
+  opacity: 1;
+  z-index: 3;
+}
+
+.text-overlay-title {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  font-size: 24px;
+  font-weight: var(--font-weight-secondary-bold);
+}
+
+.text-overlay-location {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  font-size: 12px;
+  color: var(--color-accent-light-dark);
+}

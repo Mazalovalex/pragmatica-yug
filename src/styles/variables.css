@@ -1,0 +1,24 @@
+:root {
+  --font-primary: "AlumniSans-VariableFont", Sans-serif;
+
+  --font-secondary: "Montserrat-VariableFont", Arial, sans-serif;
+  --font-weight-secondary-light: 400;
+  --font-weight-secondary-normal: 500;
+  --font-weight-secondary-bold: 600;
+
+  --font-color-secondary: #303030;
+
+  --color-accent-light-dark: #2e2e30;
+  --color-accent-dark-blue: #0e5072;
+  --color-accent-dark-blue-hover: #09405a;
+  --color-accent-white: #f9f9f9;
+  --color-accent-light-blue: #cfdce3;
+  --color-accent-white-hover: #f9f9f9;
+  --color-accent-yellow: #f9a90d;
+  /* --color-accent-yellow: #f4ae3f; */
+  --color-accent-black: #000;
+  --color-accent-light-blue: #e1e8eb;
+  --color-border: #9999ae;
+  --color-border-filters: #acacac;
+  --color-imput-form: #d8d8d8;
+}

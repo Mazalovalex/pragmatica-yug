@@ -1,0 +1,167 @@
+.footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, auto);
+  column-gap: 10px;
+  margin: 0 20px 20px 20px;
+  background-color: var(--color-accent-dark-blue);
+  border-radius: 5px;
+  padding: 40px 0px 0 0;
+}
+
+.footer__info {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  grid-column: 1/5;
+  margin-bottom: 40px;
+  align-items: end;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+.footer__info::before {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100%-40px); /* Устанавливаем ширину бордера */
+  border-top: 1px solid var(--color-accent-white); /* Устанавливаем бордер */
+}
+
+.footer__info-address {
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-wrap: balance;
+  color: var(--color-accent-white);
+}
+.img-logo-footer {
+  height: 80px;
+}
+
+.footer__departament {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-left: 20px;
+}
+
+.footer-white {
+  color: var(--color-accent-white);
+}
+
+.footer-subTitle {
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.link-icon-footer {
+  fill: white;
+  stroke: transparent;
+}
+
+.link:hover .link-icon-footer {
+  fill: var(--color-accent-yellow);
+  stroke: transparent;
+}
+
+.footer-address-department {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer__departament-address {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.footer__navigation {
+  grid-column: 2/3;
+  grid-row: 2/3;
+
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.footer__nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer__nav-item {
+  color: var(--color-accent-white);
+}
+.footer__catalog {
+  grid-column: 3/4;
+  grid-row: 2/3;
+
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.footer__catalog-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer__catalog-types {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer__catalog-color {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer__catalog-color-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.copy-text {
+  color: var(--color-accent-white);
+}
+
+.footer-copyright {
+  margin-top: 40px;
+  grid-column: 1/5; /* Занимает всю ширину (4 колонки) */
+  grid-row: 3/4; /* Располагается на второй строке */
+  padding: 20px 0; /* Добавляем отступы сверху и снизу */
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+  position: relative;
+}
+
+.footer-copyright::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100%-40px); /* Устанавливаем ширину бордера */
+  border-top: 1px solid var(--color-accent-white); /* Устанавливаем бордер */
+}
+
+.developer {
+  color: var(--color-accent-white);
+  text-decoration: underline;
+}

@@ -1,0 +1,35 @@
+.view-options {
+  grid-column: 1/5;
+  justify-self: end;
+  margin-top: 22px;
+  display: flex;
+  gap: 5px;
+}
+
+.view-btn {
+  padding: 5px 10px;
+  height: 40px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  border: 1px solid var(--color-border-filters);
+  border-radius: 4px;
+  background-color: transparent;
+  color: var(--color-text-default); /* Цвет текста по умолчанию */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.view-btn:hover {
+  color: var(--color-accent-yellow); /* Цвет текста при наведении */
+}
+
+.view-btn.active {
+  background-color: var(--color-accent-yellow); /* Цвет фона активной кнопки */
+  border-color: transparent;
+  color: var(--color-accent-black); /* Цвет текста активной кнопки */
+}
+
+.view-btn svg {
+  fill: currentColor; /* Иконки будут менять цвет вместе с текстом */
+}

@@ -1,0 +1,32 @@
+.button-arow {
+  grid-column: 4/5; /* Кнопки "Left" и "Right" в четвёртой колонке */
+  display: flex;
+  gap: 1px;
+  justify-self: start; /* Выравниваем по левому краю */
+}
+
+.slider-footer-btn {
+  grid-column: 1/2; /* Кнопка "Подробнее" в первой колонке */
+  justify-self: start; /* Выравниваем по левому краю */
+  margin-left: 50px;
+}
+
+.btn {
+  height: 70px;
+  width: 70px;
+  background-color: var(--color-accent-dark-blue);
+  border: none;
+  cursor: pointer;
+}
+
+.leftBtn {
+  border-radius: 5px 0 0 5px;
+}
+
+.rightBtn {
+  border-radius: 0 5px 5px 0;
+}
+
+.btn:hover .slider-button-arow-hover {
+  fill: #dea548;
+}

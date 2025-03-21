@@ -1,0 +1,45 @@
+.about-mission {
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 колонки */
+  grid-auto-rows: max-content;
+  gap: 10px;
+}
+
+.mission-title {
+  padding-bottom: 30px;
+}
+
+.mission-description {
+  grid-column: 2/4;
+}
+
+.mission-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mission-image-img {
+  grid-column: 4/5; /* Картинка будет в 4-й колонке */
+  height: auto; /* Пропорциональная высота */
+  object-fit: cover; /* Пропорциональное обрезание, если нужно, чтобы заполнило контейнер */
+  max-width: 100%; /* Ограничение на 100% ширины контейнера */
+  border-radius: 10px;
+}
+
+.mission-author {
+  padding-top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 40px;
+}
+
+.author-info {
+  text-align: end;
+}
+
+.italic {
+  font-style: italic;
+}

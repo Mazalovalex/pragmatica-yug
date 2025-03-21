@@ -1,0 +1,72 @@
+.button {
+  background: var(--color-accent-yellow);
+  border: 0 solid transparent;
+  border-radius: 5px;
+  color: var(--color-accent-black);
+  cursor: pointer;
+  display: inline-flex; /* Делаем как у button */
+  gap: 10px;
+  align-items: center;
+  padding: 7px 12px;
+  height: 45px;
+  width: fit-content;
+  font-weight: var(--font-weight-secondary-light);
+  text-decoration: none; /* Убираем подчеркивание у <a> */
+}
+
+.button:hover {
+  background: var(--color-accent-dark-blue-hover);
+  color: var(--color-accent-white-hover);
+}
+
+.button-arrow {
+  align-self: center;
+  width: 26px;
+  height: 26px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.button-arrow::after {
+  content: url("/src/assets/icons/arrow.svg");
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 14px;
+  height: 14px;
+  transition: all 0.3s ease-in-out;
+}
+
+.button-arrow::before {
+  content: url("/src/assets/icons/arrowWhite.svg");
+  position: absolute;
+  left: 0%;
+  top: 100%;
+  transform: translate(-50%, -50%);
+  width: 14px;
+  height: 14px;
+  opacity: 0;
+  transition: left 0.2s ease-in-out, top 0.2s ease-in-out,
+    opacity 0.2s ease-in-out;
+}
+
+.button:hover .button-arrow::after {
+  left: 100%;
+  top: 0%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.button:hover .button-arrow::before {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+}
+
+.button:hover .button-arrow {
+  background-color: var(--color-accent-yellow);
+}

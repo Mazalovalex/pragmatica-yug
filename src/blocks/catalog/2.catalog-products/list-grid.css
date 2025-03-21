@@ -1,0 +1,77 @@
+.products-list.list-view {
+  display: grid;
+  grid-column: 2/5;
+  row-gap: 20px;
+}
+
+.products-list.list-view .products-item {
+  display: contents; /* Убираем лишний контейнер */
+}
+
+.products-list.list-view .product-item-img {
+  grid-column: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.products-list.list-view .product-item-content {
+  grid-column: 2;
+  display: flex;
+  grid-column: 2/4;
+  flex-direction: column;
+}
+.products-list.list-view .product-details {
+  margin-bottom: 0px;
+  padding-right: 0px;
+  height: 100%;
+}
+
+.products-list.list-view .product-category {
+  margin: 0px;
+}
+
+.products-list.list-view .btn-catalog {
+  order: -1;
+}
+
+.products-list.list-view .product-line {
+  justify-content: start;
+  gap: 10px;
+}
+
+.products-list.list-view .product-lines {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.split-filters-list {
+  background-color: var(--color-border-filters);
+  width: 100%;
+  height: 0.8px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  grid-column: 1/4;
+  display: none; /* Скрываем по умолчанию */
+}
+
+/* Показывать разделитель только в списочном виде (на больших экранах) */
+.products-list.list-view .split-filters-list {
+  display: block; /* Показываем, когда включен класс .list-view */
+}
+
+/* Для плитки, скрываем разделители на маленьких экранах */
+@media (max-width: 768px) {
+  .split-filters-list {
+    display: none; /* Скрываем на экранах, меньше 768px */
+  }
+}
+
+.products-list.list-view .product-description-line {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}

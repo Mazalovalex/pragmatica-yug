@@ -1,0 +1,136 @@
+.duluxCR5-section {
+  padding: 0px 20px;
+}
+
+.duluxCR5-title {
+  font-family: var(--font-primary);
+  font-size: 56px;
+  margin-bottom: 20px;
+}
+
+.duluxCR5-description {
+  padding-bottom: 20px;
+}
+.description-catalog {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 колонки */
+  gap: 10px; /* Отступ между элементами */
+  padding-bottom: 30px;
+}
+/* Общие стили для таблицы */
+.description-catalog__table {
+  width: fit-content;
+  border-collapse: collapse; /* Убираем двойные границы */
+  text-align: center; /* Выравнивание текста по центру */
+  margin: 20px 0;
+}
+
+.description-catalog__example {
+  grid-column: 1/-1;
+}
+
+/* Стили для нижней границы */
+.bottom-border {
+  border-bottom: 1px solid var(--color-border); /* Толстая нижняя граница */
+  padding: 0 5px;
+}
+
+/* Стили для меток (ОТТЕНОК, КОС, НАСЫЩЕННОСТЬ) */
+.color-description-table__label {
+  font-size: 10px; /* Размер шрифта */
+  color: var(--color-border); /* Цвет текста */
+  font-weight: var(--font-weight-secondary-light); /* Обычный шрифт */
+}
+
+/* Стили для кода цвета (30BB) */
+.color-description-table__code {
+  font-size: 26px; /* Размер шрифта */
+  font-weight: var(--font-weight-secondary-bold); /* Жирный шрифт */
+  color: var(--color-accent-light-dark); /* Цвет текста */
+}
+
+/* Стили для светлоты (08/) */
+.color-description-table__lightness {
+  font-size: 26px; /* Размер шрифта */
+  color: var(--color-accent-light-dark); /* Цвет текста */
+  font-weight: var(--font-weight-secondary-bold); /* Жирный шрифт */
+  text-align: end;
+}
+
+/* Стили для насыщенности (263) */
+.color-description-table__saturation {
+  font-size: 26px; /* Размер шрифта */
+  color: var(--color-accent-light-dark); /* Цвет текста */
+  font-weight: var(--font-weight-secondary-bold); /* Жирный шрифт */
+  text-align: start;
+}
+
+.description-catalog__title {
+  font-size: 18px;
+  font-weight: var(--font-weight-secondary-bold);
+  margin-bottom: 5px;
+}
+
+.description-catalog__paragraph {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Стили для SVG */
+.description-catalog__svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.description-catalog__svg-image {
+  width: 200px;
+  height: 200px;
+}
+
+.description-catalog__list-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.description-catalog__item {
+  font-size: 14px;
+  color: var(--color-text-primary);
+  padding: 5px 0;
+}
+
+.description-catalog__svg-image path {
+  transition: opacity 0.3s ease; /* Плавное изменение opacity за 0.3 секунды */
+}
+
+.color-circle {
+  grid-column: 1/3;
+  display: flex;
+  flex-direction: row;
+  background-color: var(--color-accent-light-blue);
+  padding: 20px;
+  border-radius: 5px;
+  gap: 20px;
+}
+
+.description-catalog__text-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.description-catalog__text {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.description-catalog__cos {
+  background-color: var(--color-accent-light-blue);
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
